@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".fragment.HelpbuyFragment">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,20 +29,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="下单信息"
+                android:text="下单信息
+"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:layout_gravity="center"/>
 
         </LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="235dp"
-            android:layout_gravity="center"
-            android:src="@drawable/map" />
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,22 +52,23 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="从哪里发货？"
+                android:text="发货地址"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="@color/black"
                 android:padding="10dp"
                 />
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="点击填写发货地址"
+                android:hint="输入发货地址"
                 android:padding="10dp"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="要送到哪里？"
+                android:text="发货人姓名"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="@color/black"
@@ -77,9 +77,87 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="点击填写收货地址"
+                android:hint="输入姓名"
                 android:padding="10dp"
                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发货人手机号"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入手机号"
+                android:padding="10dp"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/helpget"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货地址"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入收货地址"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人姓名"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入姓名"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人手机号"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入手机号"
+                android:padding="10dp"
+                />
+
+
 
         </LinearLayout>
 
@@ -96,4 +174,5 @@
             />
     </LinearLayout>
 
+    </ScrollView>
 </FrameLayout>

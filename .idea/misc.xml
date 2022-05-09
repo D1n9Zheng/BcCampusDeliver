@@ -24,6 +24,7 @@
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/bottom.xml" value="0.16822916666666668" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/bottom_helpBuy.xml" value="0.1578125" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/bottom_helpget.xml" value="0.25" />
+        <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_get_addr.xml" value="0.19322916666666667" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_helpbuy.xml" value="0.25" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_home.xml" value="0.26161790017211706" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_mess.xml" value="0.1308876811594203" />
@@ -31,6 +32,7 @@
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_order.xml" value="0.159375" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_report.xml" value="0.2" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_rider.xml" value="0.22" />
+        <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/fragment_sendaddr.xml" value="0.19322916666666667" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/helpbuy.xml" value="0.25" />
         <entry key="..\:/Android Project/BCCampusDeliver3/app/src/main/res/layout/tb_user1.xml" value="0.16822916666666668" />
       </map>
